@@ -1,0 +1,15 @@
+<%= form_for :urlshort, url:urlshorts_path do |f| %>
+  <p>
+    <%= f.label :fullurl %><br>
+    <%= f.text_field :fullurl %>
+  </p>
+ 
+  <p>
+    <%= f.label :desc %><br>
+    <%= f.text_area :desc %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

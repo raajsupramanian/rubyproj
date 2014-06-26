@@ -13776,3 +13776,892 @@ Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 15:58:42 +
 
 
 Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 15:58:42 +0800
+
+
+Started GET "/urlshorts/" for 127.0.0.1 at 2014-06-26 22:18:52 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UrlshortsController#index as HTML
+  [1m[35mUrlshort Load (1.0ms)[0m  SELECT `urlshorts`.* FROM `urlshorts`
+  Rendered urlshorts/index.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 183ms (Views: 130.5ms | ActiveRecord: 25.1ms)
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:18:53 +0800
+
+
+Started GET "/urlshorts/" for 127.0.0.1 at 2014-06-26 22:29:57 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UrlshortsController#index as HTML
+  [1m[35mUrlshort Load (0.8ms)[0m  SELECT `urlshorts`.* FROM `urlshorts`
+  Rendered urlshorts/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 175ms (Views: 146.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:29:58 +0800
+
+
+Started GET "/urlshorts/new/" for 127.0.0.1 at 2014-06-26 22:30:00 +0800
+Processing by UrlshortsController#new as HTML
+  Rendered urlshorts/new.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/urlshorts/new/" for 127.0.0.1 at 2014-06-26 22:33:13 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (31.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UrlshortsController#new as HTML
+  Rendered urlshorts/new.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 145ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:14 +0800
+
+
+Started POST "/urlshorts" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+Processing by UrlshortsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9R0TGgc/D2Sof+lGNoWA6zTLQvsvLqrHAxRz4uNn1zo=", "urlshort"=>{"fullurl"=>"httpp://yahoo", "desc"=>"yahoo website"}, "commit"=>"Save Urlshort"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (7.5ms)[0m  [1mINSERT INTO `urlshorts` (`created_at`, `desc`, `fullurl`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:33:24"], ["desc", "yahoo website"], ["fullurl", "httpp://yahoo"], ["updated_at", "2014-06-26 14:33:24"]]
+  [1m[35m (6.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/urlshorts/new?urlshort1=3
+Completed 302 Found in 61ms (ActiveRecord: 45.2ms)
+
+
+Started GET "/urlshorts/new?urlshort1=3" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+Processing by UrlshortsController#new as HTML
+  Parameters: {"urlshort1"=>"3"}
+  Rendered urlshorts/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:33:24 +0800
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:33:27 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrlshort Load (0.6ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:33:27"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:33:27"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to httpp://yahoo
+Completed 302 Found in 76ms (ActiveRecord: 27.4ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:33:29 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrlshort Load (0.3ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:33:29"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:33:29"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to httpp://yahoo
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:33:34 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrlshort Load (0.3ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:33:34"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:33:34"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to httpp://yahoo
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:33:35 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrlshort Load (0.2ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:33:35"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:33:35"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to httpp://yahoo
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:33:38 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrlshort Load (0.6ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:33:38"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:33:38"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to httpp://yahoo
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:33:58 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrlshort Load (0.2ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:33:58"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:33:58"]]
+  [1m[35m (4.4ms)[0m  COMMIT
+Redirected to httpp://yahoo
+Completed 302 Found in 7ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/urlshorts/new" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+Processing by UrlshortsController#new as HTML
+  Rendered urlshorts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+
+
+Started GET "/urlshorts/1/" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUrlshort Load (0.3ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", "1"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:34:14"], ["fullurlid", "1"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:34:14"]]
+  [1m[36m (11.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.google.com
+Completed 302 Found in 16ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 22:34:14 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:34:15 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrlshort Load (0.3ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:34:15"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:34:15"]]
+  [1m[35m (5.9ms)[0m  COMMIT
+Redirected to httpp://yahoo
+Completed 302 Found in 9ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:34:18 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrlshort Load (0.4ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:34:18"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:34:18"]]
+  [1m[36m (4.9ms)[0m  [1mCOMMIT[0m
+Redirected to httpp://yahoo
+Completed 302 Found in 10ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:34:21 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrlshort Load (0.3ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:34:21"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:34:21"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to httpp://yahoo
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:34:37 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrlshort Load (0.3ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:34:37"], ["fullurlid", "3"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:34:37"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to httpp://yahoo
+Completed 302 Found in 3ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/urlshorts/2" for 127.0.0.1 at 2014-06-26 22:35:32 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUrlshort Load (0.9ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:35:32"], ["fullurlid", "2"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:35:32"]]
+  [1m[35m (4.9ms)[0m  COMMIT
+Redirected to httpp://yahoo.com
+Completed 302 Found in 14ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/urlshorts/2" for 127.0.0.1 at 2014-06-26 22:36:38 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUrlshort Load (0.3ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", "2"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:36:38"], ["fullurlid", "2"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:36:38"]]
+  [1m[36m (4.8ms)[0m  [1mCOMMIT[0m
+Redirected to htttp://yahoo.com
+Completed 302 Found in 8ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:37:20 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrlshort Load (0.4ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 3]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Urlshort with 'id'=3):
+  app/controllers/urlshorts_controller.rb:22:in `show'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.4ms)
+
+
+Started GET "/urlshorts/3" for 127.0.0.1 at 2014-06-26 22:37:28 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrlshort Load (0.6ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", 3]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Urlshort with 'id'=3):
+  app/controllers/urlshorts_controller.rb:22:in `show'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/urlshorts/2" for 127.0.0.1 at 2014-06-26 22:37:33 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUrlshort Load (0.3ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:37:33"], ["fullurlid", "2"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:37:33"]]
+  [1m[35m (4.4ms)[0m  COMMIT
+Redirected to htttp://yahoo.com
+Completed 302 Found in 9ms (ActiveRecord: 4.9ms)
+
+
+Started POST "/urlshorts" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+Processing by UrlshortsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9R0TGgc/D2Sof+lGNoWA6zTLQvsvLqrHAxRz4uNn1zo=", "urlshort"=>{"fullurl"=>"http://yahoo.com", "desc"=>"yahoo"}, "commit"=>"Save Urlshort"}
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `urlshorts` (`created_at`, `desc`, `fullurl`, `updated_at`) VALUES (?, ?, ?, ?)  [["created_at", "2014-06-26 14:37:57"], ["desc", "yahoo"], ["fullurl", "http://yahoo.com"], ["updated_at", "2014-06-26 14:37:57"]]
+  [1m[36m (5.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/urlshorts/new?urlshort1=4
+Completed 302 Found in 11ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/urlshorts/new?urlshort1=4" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+Processing by UrlshortsController#new as HTML
+  Parameters: {"urlshort1"=>"4"}
+  Rendered urlshorts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:37:57 +0800
+
+
+Started GET "/urlshorts/4" for 127.0.0.1 at 2014-06-26 22:38:00 +0800
+Processing by UrlshortsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUrlshort Load (0.4ms)[0m  SELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `urlshorts`.* FROM `urlshorts`  WHERE `urlshorts`.`id` = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `urlstats` (`created_at`, `fullurlid`, `ip`, `updated_at`) VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-06-26 14:38:00"], ["fullurlid", "4"], ["ip", "127.0.0.1"], ["updated_at", "2014-06-26 14:38:00"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://yahoo.com
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urlshorts/" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+Processing by UrlshortsController#index as HTML
+  [1m[36mUrlshort Load (0.8ms)[0m  [1mSELECT `urlshorts`.* FROM `urlshorts`[0m
+  Rendered urlshorts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:18 +0800
+
+
+Started GET "/urlshorts/?stats=4" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+Processing by UrlshortsController#index as HTML
+  Parameters: {"stats"=>"4"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '4'
+  [1m[36mUrlstats Load (7.4ms)[0m  [1mSELECT count(*) as total,ip FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '4' GROUP BY ip[0m
+  Rendered urlshorts/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 97ms (Views: 73.7ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:24 +0800
+
+
+Started GET "/urlshorts/?stats=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+Processing by UrlshortsController#index as HTML
+  Parameters: {"stats"=>"1"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1'
+  [1m[36mUrlstats Load (1.1ms)[0m  [1mSELECT count(*) as total,ip FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1' GROUP BY ip[0m
+  Rendered urlshorts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 72ms (Views: 69.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:40:31 +0800
+
+
+Started GET "/urlshorts/?stats=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+Processing by UrlshortsController#index as HTML
+  Parameters: {"stats"=>"1"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1'
+  [1m[36mUrlstats Load (0.4ms)[0m  [1mSELECT count(*) as total,ip FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1' GROUP BY ip[0m
+  Rendered urlshorts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:41:28 +0800
+
+
+Started GET "/urlshorts/?stats=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+Processing by UrlshortsController#index as HTML
+  Parameters: {"stats"=>"1"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1'
+  [1m[36mUrlstats Load (0.5ms)[0m  [1mSELECT count(*) as total,ip FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1' GROUP BY ip[0m
+  Rendered urlshorts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 80ms (Views: 76.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:07 +0800
+
+
+Started GET "/urlshorts/?stats=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+Processing by UrlshortsController#index as HTML
+  Parameters: {"stats"=>"1"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1'
+  [1m[36mUrlstats Load (0.5ms)[0m  [1mSELECT count(*) as total,ip FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1' GROUP BY ip[0m
+  Rendered urlshorts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:42:38 +0800
+
+
+Started GET "/urlshorts/" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+Processing by UrlshortsController#index as HTML
+  [1m[35mUrlshort Load (0.3ms)[0m  SELECT `urlshorts`.* FROM `urlshorts`
+  Rendered urlshorts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 64ms (Views: 62.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:43:21 +0800
+
+
+Started GET "/urlshorts/?stats=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+Processing by UrlshortsController#index as HTML
+  Parameters: {"stats"=>"1"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1'[0m
+  [1m[35mUrlstats Load (0.4ms)[0m  SELECT count(*) as total,ip FROM `urlstats`  WHERE `urlstats`.`fullurlid` = '1' GROUP BY ip
+  Rendered urlshorts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:44:03 +0800
+
+
+Started GET "/urlshorts/new/" for 127.0.0.1 at 2014-06-26 22:45:07 +0800
+Processing by UrlshortsController#new as HTML
+  Rendered urlshorts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2014-06-26 22:45:07 +0800
+
+
+Started GET "/assets/urlshorts.css?body=1" for 127.0.0.1 at 2014-06-26 22:45:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/urlshorts.js?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:45:08 +0800

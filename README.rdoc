@@ -5,3 +5,5 @@ http://localhost:3000/urlshorts/ - list the shortened urls
 http://0.0.0.0:3000/urlshorts/?stats=1 - stats of the fullurl id 1
 
 http://0.0.0.0:3000/urlshorts/new/ - Create new shortened url
+
+urlshorts.wmb - ER Diagram file

@@ -1,0 +1,38 @@
+<h1>Data listing</h1>
+
+<% unless params[:stats] == nil %>
+
+<table>
+  <tr>
+    <th>IP</th>
+    <th>Number of requests</th>
+  </tr>
+
+  <% @groupdata.each do |o| %>
+    <tr>
+      <td><%= o.ip %></td>
+      <td><%= o.total %></td>
+    </tr>
+  <% end %>
+</table>
+
+
+
+
+There are <b><%= @fulllist %></b> number of total requests has been made for this url
+<% else %> 
+<table>
+  <tr>
+    <th>Full URL</th>
+    <th>Short URL</th>
+  </tr>
+ 
+  <% @urlsh.each do |u| %>
+    <tr>
+      <td><%= u.fullurl %></td>
+      <td><a href='http://0.0.0.0:3000/urlshorts/<%= u.id %>'>http://0.0.0.0:3000/urlshorts/<%= u.id %></a></td>
+	  <td><a href="http://0.0.0.0:3000/urlshorts/?stats=<%= u.id %>">Check Stats</a></td>
+    </tr>
+  <% end %>
+</table>
+<% end %>

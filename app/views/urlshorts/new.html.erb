@@ -1,15 +1,20 @@
 <%= form_for :urlshort, url:urlshorts_path do |f| %>
-  <p>
-    <%= f.label :fullurl %><br>
-    <%= f.text_field :fullurl %>
-  </p>
+
+	<% unless params[:urlshort1] == nil %>
+  		Success!! The shortened url for is created i.e <a href='http://0.0.0.0:3000/urlshorts/<%= params[:urlshort1] %>' >http://0.0.0.0:3000/urlshorts/<%= params[:urlshort1] %></a>
+ 	<% end %>
+
+  	<p>
+    	<%= f.label :fullurl %><br>
+    	<%= f.text_field :fullurl %>
+  	</p>
  
-  <p>
-    <%= f.label :desc %><br>
-    <%= f.text_area :desc %>
-  </p>
+ 	 <p>
+    	<%= f.label :desc %><br>
+    	<%= f.text_area :desc %>
+  	</p>
  
-  <p>
-    <%= f.submit %>
-  </p>
+  	<p>
+    	<%= f.submit %>
+  	</p>
 <% end %>

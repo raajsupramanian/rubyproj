@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
   
-  resources :urlshorts
+  resources :urlshorts#, :collection => {:statslist => :get}
   
   get 'welcome/index'
 
   get 'say/hello'
 
   get 'say/goodbye'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
